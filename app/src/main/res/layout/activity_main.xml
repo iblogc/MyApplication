@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="false"
     android:weightSum="1">
 
 
@@ -19,6 +20,7 @@
                 android:layout_height="150dp"
                 android:id="@+id/dispay"
                 android:textSize="100dp"
+                android:focusable="true"
                 android:layout_span="4">
             </TextView>
         </TableRow>
@@ -30,7 +32,11 @@
                 android:layout_height="match_parent"
                 android:layout_column="0"
                 android:tag="number"
+                android:clickable="false"
+                android:alpha="0.5"
+                android:contentDescription="546"
                 android:text="7"
+                android:onClick=""
                 android:id="@+id/seven">
             </Button>
             <Button
@@ -38,6 +44,7 @@
                 android:layout_height="match_parent"
                 android:layout_column="1"
                 android:tag="number"
+                android:focusable="false"
                 android:text="8"
                 android:id="@+id/eight">
             </Button>

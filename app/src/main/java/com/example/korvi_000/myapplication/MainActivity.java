@@ -12,6 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements View.OnClickListener {
     protected TextView div;
     protected TextView ediv;
+    protected Button btn7;
     int num1;
     double num2;
     @Override
@@ -48,7 +49,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         Button btn4 = (Button) findViewById(R.id.four);
         Button btn5 = (Button) findViewById(R.id.five);
         Button btn6 = (Button) findViewById(R.id.six);
-        Button btn7 = (Button) findViewById(R.id.seven);
+        btn7 = (Button) findViewById(R.id.seven);
         Button btn8 = (Button) findViewById(R.id.eight);
         Button btn9 = (Button) findViewById(R.id.night);
         Button addBtn = (Button) findViewById(R.id.add);
@@ -71,11 +72,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn5.setTag(5);
         btn6.setOnClickListener(this);
         btn6.setTag(6);
+        btn7.setClickable(false);
         btn7.setOnClickListener(this);
         btn7.setTag(7);
         btn8.setOnClickListener(this);
         btn8.setTag(8);
+        btn8.setClickable(false);
         btn9.setOnClickListener(this);
+        btn9.setClickable(false);
         btn9.setTag(9);
         addBtn.setOnClickListener(this);
         addBtn.setTag(1001);
