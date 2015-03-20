@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, LogginActivity.class);
+                Intent intent = new Intent(MainActivity.this, FunlistActivity.class);
                 startActivity(intent);
                 MainActivity.this.finish();
                 finish();

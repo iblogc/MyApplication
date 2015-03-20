@@ -27,6 +27,22 @@
             android:name=".IndexActivity"
             android:label="@string/index" >
         </activity>
+        <activity
+            android:name=".FunlistActivity"
+            android:label="@string/funlist" >
+        </activity>
+        <activity
+            android:name=".CalculatorActivity"
+            android:label="@string/calculator" >
+        </activity>
+        <activity
+            android:name=".DotActivity"
+            android:label="@string/dot" >
+        </activity>
+        <activity
+            android:name=".PhotoSwitchActivity"
+            android:label="@string/photoswitch" >
+        </activity>
     </application>
 
 </manifest>

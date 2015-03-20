@@ -9,4 +9,8 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="calculator">计算器</string>
+    <string name="photoswitch">图片切换</string>
+    <string name="dot">小圆点</string>
+    <string name="funlist">DEMO</string>
 </resources>
