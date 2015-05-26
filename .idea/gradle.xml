@@ -12,7 +12,6 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app2" />
             <option value="$PROJECT_DIR$/calculator" />
-            <option value="$PROJECT_DIR$/imgshow" />
           </set>
         </option>
       </GradleProjectSettings>
