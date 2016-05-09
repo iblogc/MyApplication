@@ -12,5 +12,7 @@
     <string name="calculator">计算器</string>
     <string name="photoswitch">图片切换</string>
     <string name="dot">小圆点</string>
+    <string name="mp">图表</string>
+    <string name="light">电灯</string>
     <string name="funlist">DEMO</string>
 </resources>

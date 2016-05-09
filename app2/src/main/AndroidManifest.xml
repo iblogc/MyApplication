@@ -43,6 +43,14 @@
             android:name=".PhotoSwitchActivity"
             android:label="@string/photoswitch" >
         </activity>
+        <activity
+            android:name=".MPAndroidChartActivity"
+            android:label="@string/mp" >
+        </activity>
+        <activity
+            android:name=".LightActivity"
+            android:label="@string/light" >
+        </activity>
     </application>
 
 </manifest>

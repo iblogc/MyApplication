@@ -19,10 +19,14 @@ public class FunlistActivity extends ActionBarActivity implements View.OnClickLi
         Button btn_calculator = (Button) findViewById(R.id.calculator);
         Button btn_photoswitch = (Button) findViewById(R.id.photoswitch);
         Button btn_dot = (Button) findViewById(R.id.dot);
+        Button btn_mp = (Button) findViewById(R.id.mp);
+        Button btn_diandeng = (Button) findViewById(R.id.diandeng);
         btn_logreg.setOnClickListener(this);
         btn_calculator.setOnClickListener(this);
         btn_photoswitch.setOnClickListener(this);
         btn_dot.setOnClickListener(this);
+        btn_mp.setOnClickListener(this);
+        btn_diandeng.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -38,6 +42,12 @@ public class FunlistActivity extends ActionBarActivity implements View.OnClickLi
             startActivity(intent);
         }else if(tag == this.getString(R.string.dot)){
             Intent intent = new Intent(FunlistActivity.this,DotActivity.class);
+            startActivity(intent);
+        }else if(tag == this.getString(R.string.mp)){
+            Intent intent = new Intent(FunlistActivity.this,MPAndroidChartActivity.class);
+            startActivity(intent);
+        }else if(tag == this.getString(R.string.light)){
+            Intent intent = new Intent(FunlistActivity.this,LightActivity.class);
             startActivity(intent);
         }
 

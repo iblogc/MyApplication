@@ -9,12 +9,14 @@
         android:text="@string/loggin"
         android:tag="@string/loggin"
         android:id="@+id/logreg"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/calculator"
         android:tag="@string/calculator"
         android:id="@+id/calculator"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,5 +29,19 @@
         android:text="@string/dot"
         android:tag="@string/dot"
         android:id="@+id/dot"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mp"
+        android:tag="@string/mp"
+        android:id="@+id/mp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/light"
+        android:tag="@string/light"
+        android:id="@+id/diandeng"/>
 
 </LinearLayout>
